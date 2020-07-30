@@ -12,3 +12,9 @@
     Verdana,
     sans-serif !important;
 }
+
+.navbar-nav {
+  font-weight: 100;
+  float: right;
+  margin-left: auto;
+}

@@ -81,3 +81,8 @@ svg {
   width: 10rem;
 }
 
+.navbar-nav {
+  font-weight: 100;
+  float: right;
+  margin-left: auto;
+}

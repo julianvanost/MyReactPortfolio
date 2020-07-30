@@ -1,22 +1,25 @@
-import React from 'react';
-// import logo from './logo.svg';
-import Navbar from './components/navbar/index.js'
-import Footer from './components/footer/index.js'
-import About from './components/about/index.js'
-// import Contact from './components/contact/index.js'
-// import Portfolio from './components/portfolio/index.js'
-import Head from './components/head/index.js'
+import React from 'react'
+import Navbar from './components/Navbar'
+import About from './views/About'
+import Footer from './components/Footer'
+// import Home from './views/Home'
+// import Portfolio from './views/Portfolio'
+// import Contact from './views/Contact'
 import './App.css'
-
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Redirect
+// } from "react-router-dom"
 let name = 'Julian Van Ost'
 
 const App = () => {
   return (
     <html lang="en-us">
-      <Head />
       <Navbar person={name} />
       <About />
-      <Footer />
+      {/* <Footer /> commented out to get rid of annoyance temporarily*/}
     </html>
   )
 }

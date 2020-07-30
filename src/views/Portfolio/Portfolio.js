@@ -1,4 +1,4 @@
-import React from 'react'
+import React from './node_modules/react'
 import './portfolio.css'
 const Portfolio = () => {
   return (
@@ -10,7 +10,7 @@ const Portfolio = () => {
           </div>
           <div className="row">
             <div className="col-md-3">
-              <img src="../../public/assets/images/profilePicture.jpg" alt-text="" className="img-thumbnail"></img>
+              <img src="../../public/assets/images/profilePicture.jpg" alt='profile' alt-text="profile" className="img-thumbnail"></img>
             </div>
             <div className="col-md-9">
               <p className="">
