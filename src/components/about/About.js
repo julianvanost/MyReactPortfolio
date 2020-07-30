@@ -9,7 +9,7 @@ const Body = () => {
           </div>
           <div className="row">
             <div className="col-md-3">
-              <img src="../../public/assets/images/profilePicture.jpg" alt-text="profile image" className="img-thumbnail"></img>
+              <img src="../../public/assets/images/profilePicture.jpg" alt-text="Selfie" className="img-thumbnail" alt='profile'></img>
             </div>
             <div className="col-md-9">
               <p>

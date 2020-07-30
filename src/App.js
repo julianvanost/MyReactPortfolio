@@ -8,7 +8,7 @@ import About from './components/about/index.js'
 import Head from './components/head/index.js'
 import './App.css'
 
-let name = 'John Doe'
+let name = 'Julian Van Ost'
 
 const App = () => {
   return (
