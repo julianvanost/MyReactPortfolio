@@ -16,11 +16,11 @@ let name = 'Julian Van Ost'
 
 const App = () => {
   return (
-    <html lang="en-us">
+    <div>
       <Navbar person={name} />
       <About />
-      {/* <Footer /> commented out to get rid of annoyance temporarily*/}
-    </html>
+      <Footer />
+    </div>
   )
 }
 

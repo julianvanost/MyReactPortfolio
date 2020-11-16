@@ -11,7 +11,7 @@ const Contact = () => {
           </div>
           <div className="row">
             <div className="col-md-3">
-              <img src="../../public/assets/images/profilePicture.jpg" alt-text="Julian Van Ost Profile Image" className="img-thumbnail"></img>
+              <img src="../../public/assets/images/profilePicture.jpg" alt='profile pic' alt-text="Julian Van Ost Profile Image" className="img-thumbnail"></img>
             </div>
             <div className="col-md-9">
               <p>

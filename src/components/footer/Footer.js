@@ -2,11 +2,9 @@ import React from 'react'
 import './footer.css'
 const Footer = () => {
   return (
-    <footer className="page-footer font-small cyan darken-3">
-      <div className="container">Enjoy the Page</div>
+    <footer className="footer">
+      <div className="container text-center">Enjoy the Page</div>
     </footer>
-
-
   )
 }
 
