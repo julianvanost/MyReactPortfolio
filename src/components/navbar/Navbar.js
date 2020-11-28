@@ -13,9 +13,7 @@ const Navbar = props => {
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="nav navbar-nav navbar-right">
-          <li className="nav-item">
-            <a className="nav-link" href="/">Home</a>
-          </li>
+
           <li className="nav-item">
             <a className="nav-link" href="/about">About</a>
           </li>
@@ -23,7 +21,7 @@ const Navbar = props => {
             <a className="nav-link" href="/portfolio">Portfolio</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact">Contact</a>
+            <a className="nav-link" href="/Contact">Contact</a>
           </li>
         </ul>
       </div>

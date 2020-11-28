@@ -1,11 +1,10 @@
 import React from 'react'
+import './App.css'
 import Navbar from './components/Navbar'
 import About from './views/About'
 import Footer from './components/Footer'
-// import Home from './views/Home'
-// import Portfolio from './views/Portfolio'
-// import Contact from './views/Contact'
-import './App.css'
+import Portfolio from './views/Portfolio'
+import Contact from './views/Contact'
 // import {
 //   BrowserRouter as Router,
 //   Switch,
