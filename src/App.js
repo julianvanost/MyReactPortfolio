@@ -11,6 +11,9 @@ import Contact from './views/Contact'
 //   Route,
 //   Redirect
 // } from "react-router-dom"
+
+// TODO: Need to fix NavBar to add reactRouter or add it here to link to Portfolio and Contact pages
+
 let name = 'Julian Van Ost'
 
 const App = () => {
